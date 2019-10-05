@@ -1,0 +1,236 @@
+body{
+  background-color: #fff;
+}
+
+.jumbo-custom{
+  /* background-color: #eee; */
+background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  color: white;
+}
+
+.jumbo-custom a{
+  color: white;
+  text-decoration: underline;
+}
+
+.jumbo-custom h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.jumbo-custom .jumbo-h3{
+  color: white;
+}
+
+*{
+  list-style: none;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+  /* background: black; */
+}
+
+.wrapper .sidebar{
+  position: fixed;
+  width: 100px;
+  height: 1000px;
+  background: #fff;
+  padding-top: 100px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 20px;
+  margin-left: 0;
+  /* border-bottom: 1px solid blue; */
+  /* border-top: 1px solid orange; */
+}
+
+.wrapper .sidebar ul li a{
+  font-size: 22px;
+}
+
+#first-li{
+  border-right: 2px solid #abbdef;
+}
+
+.logo{
+  width: 150px;
+  padding: 10px;
+  /* height: 25px; */
+  /* margin-top: 10px; */
+  margin: auto;
+  padding-bottom: 0;
+}
+
+a.notif {
+  top: 14px;
+  position: relative;
+  display: block;
+  height: 30px;
+  width: 30px;
+  background: url('https://png.pngtree.com/png-clipart/20190619/original/pngtree-notification-vector-icon-png-image_4017382.jpg');
+  background-size: 30px;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+.num{
+  font-size: 12px;
+  position: absolute;
+  right: -5px;
+  top: 1px;
+  color: white;
+  padding-left: 2px;
+  padding-right: 2px;
+  background: red;
+  border-radius: 100%;
+}
+
+
+.profile{
+  top: 10px;
+  position: relative;
+  padding-left: 35px;
+  color: black;
+  font-size: 24px;
+}
+
+.profile:hover{
+  color:inherit;
+}
+
+.btn-jumbo{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid black;
+  margin-left: 37px;
+}
+
+.btn-custom{
+  background-color: transparent;
+  color: #000;
+  border: 1px solid black;
+}
+
+.jumbo-h3{
+  font-size: 20px;
+  color:#6ba840;
+}
+
+.jumbo-p{
+  font-size: 14px;
+}
+
+.card-body h3{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card-body h5{
+  font-size: 1em;
+}
+
+#services img{
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: 4px;
+}
+
+#services .card{
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #aaa;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+
+#services .card:hover{
+  border-radius: 50%;
+  /* background: #c49102; */
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+#services .card:hover h3, #services .card:hover{
+  border-radius: 50%;
+  color: #fff;
+}
+
+#services .card:hover   button{
+
+  color: #fff;
+}
+
+#services .card .btn-custom:hover{
+  background: none;
+  border-color: black;
+}
+
+
+
+.footer{
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  /* font-size: 40px; */
+  color: white;
+}
+
+.icons:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.twitter{
+  background: #2b97f1;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+.linkedin{
+  background: #006599;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+.instagram{
+  background: #E1306C;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+.facebook{
+  background: #3b5a9b;
+  margin-left: 10px;
+  border-radius: 100%;
+}
+
+.footer2 a{
+  color: inherit;
+  text-decoration: underline;
+}
+
+/*
+.profile{
+  position: relative;
+  bottom: 15px;
+  background-image: url('https://freeicons.io/laravel/public/uploads/icons/png/21107709871548233624-128.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 45px;
+  width: 45px;
+} */
